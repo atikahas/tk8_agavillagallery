@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<div class="row">
+  <div class="row">
     <div class="col-md-12">
       <h2 class="heading" data-aos="fade-right">AGA VILLA GALLERY</h2>
     </div>
@@ -22,7 +22,7 @@
                 <figcaption>
                     <p>{{ $mg->description }}</p>
                 </figcaption>
-                <a href="#"></a>
+                <a href="{{url('')}}/{{ $mg->link }}"></a>
             </figure>
         </div>
     @endforeach

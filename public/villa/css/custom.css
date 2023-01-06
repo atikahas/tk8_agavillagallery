@@ -140,3 +140,32 @@ figure.snip1477.hover figcaption {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
+
+.site-gallery {
+    background-size: cover;
+    height: 40vh;
+    min-height: 80px;
+    width: 100%;
+  }
+
+  .site-gallery-inner {
+    height: 40vh;
+    min-height: 80px;
+  }
+
+  .site-gallery.overlay:before {
+    background: rgba(0, 0, 0, 0.45);
+    content: "";
+    position: absolute;
+    height: 40vh;
+    min-height: 80px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+
+
+
+  

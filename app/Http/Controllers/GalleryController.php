@@ -15,8 +15,30 @@ class GalleryController extends Controller
         $villaimage = VillaImage::all();
         $menugallery = MenuGallery::all();
 
-        // dd($villaimage);
-
         return view('gallery.index', (compact('villaimage','menugallery')));
+    }
+
+    public function interiormain() 
+    {
+        $villa1 = VillaImage::where('filesource','agavilla')->get();
+        // dd($villa1);
+
+        return view('gallery.interiormain', (compact('villa1')));
+    }
+
+    public function interiorguest() 
+    {
+        $villa2 = VillaImage::where('filesource','agavilla2')->get();
+        // dd($villa1);
+
+        return view('gallery.interiorguest', (compact('villa2')));
+    }
+
+    public function exterior() 
+    {
+        $exterior = VillaImage::where('filesource','agavilla3')->get();
+        // dd($villa1);
+
+        return view('gallery.exterior', (compact('exterior')));
     }
 }

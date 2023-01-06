@@ -31,13 +31,13 @@
     </header>
     <!-- END head -->
 
-    <section class="site-hero overlay" style="background-image: url('{{url('')}}/gallery/3.jpg')">
+    <section class="site-gallery overlay" style="background-image: url('{{url('')}}/gallery/3.jpg')">
       <div class="container">
-        <div class="row site-hero-inner justify-content-center align-items-center">
+        <div class="row site-gallery-inner justify-content-center align-items-center">
           <div class="col-md-10 text-center">
-            <h1 class="heading" data-aos="fade-up">AGA <em>Villa</em></h1>
-            <p data-aos="fade-up" data-aos-delay="100" style="color:white">
-              Immerse yourself in peace, serenity and chilluxe.
+            <h1 class="heading" data-aos="fade-up" style="color:white">AGA <em>Villa</em></h1>
+            <p data-aos="fade-up" data-aos-delay="100" style="color: #e61c5d;">
+              @yield('breadcrumb')
             </p>
           </div>
         </div>

@@ -18,3 +18,6 @@ use App\Http\Controllers\GalleryController;
 //     return view('gallery.index');
 // });
 Route::get('/', [GalleryController::class, 'index']);
+Route::get('/gallery/interior-main', [GalleryController::class, 'interiormain']);
+Route::get('/gallery/interior-guest', [GalleryController::class, 'interiorguest']);
+Route::get('/gallery/exterior', [GalleryController::class, 'exterior']);
