@@ -14,6 +14,7 @@
     
     <link rel="stylesheet" href="{{url('')}}/villa/fonts/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="{{url('')}}/villa/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="icon" href="{{url('')}}/villa/agalogo/aga-logo-7.png">
 
     <!-- Theme Style -->
     <link rel="stylesheet" href="{{url('')}}/villa/css/style.css">

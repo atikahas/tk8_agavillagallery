@@ -14,6 +14,7 @@
     
     <link rel="stylesheet" href="{{url('')}}/villa/fonts/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="{{url('')}}/villa/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="icon" href="{{url('')}}/villa/agalogo/aga-logo-7.png">
 
     <!-- Theme Style -->
     <link rel="stylesheet" href="{{url('')}}/villa/css/style.css">
@@ -35,7 +36,8 @@
       <div class="container">
         <div class="row site-hero-inner justify-content-center align-items-center">
           <div class="col-md-10 text-center">
-            <h1 class="heading" data-aos="fade-up">AGA <em>Villa</em></h1>
+            <img src="{{url('')}}/villa/agalogo/aga-logo-8.png" height="150px" width="150px" data-aos="fade-up"/>
+            {{-- <h1 class="heading" data-aos="fade-up">AGA <em>Villa</em></h1> --}}
             <p data-aos="fade-up" data-aos-delay="100" style="color:white">
               Immerse yourself in peace, serenity and chilluxe.
             </p>
