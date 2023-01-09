@@ -36,7 +36,8 @@
       <div class="container">
         <div class="row site-gallery-inner justify-content-center align-items-center">
           <div class="col-md-10 text-center">
-            <h1 class="heading" data-aos="fade-up" style="color:white">AGA <em>Villa</em></h1>
+            <img src="{{url('')}}/villa/agalogo/aga-logo-8.png" height="120px" width="120px" data-aos="fade-up"/>
+            {{-- <h1 class="heading" data-aos="fade-up" style="color:white">AGA <em>Villa</em></h1> --}}
             <p data-aos="fade-up" data-aos-delay="100" style="color: #e61c5d;">
               @yield('breadcrumb')
             </p>
