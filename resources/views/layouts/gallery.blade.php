@@ -56,7 +56,7 @@
 
     <footer class="section footer-section">
       <div class="container">
-        <div class="row mb-4">
+        {{-- <div class="row mb-4">
           <div class="col-md-3 mb-5">
             <ul class="list-unstyled link">
               <li><a href="#">About Us</a></li>
@@ -89,14 +89,12 @@
               </div>
             </form>
           </div>
-        </div>
-        <div class="row bordertop pt-5">
-          <p class="col-md-6 text-left">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+        </div> --}}
+        <div class="row ">
+          <p class="col-md-6 text-left" data-aos="fade-up">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | TK</p>
             
           <p class="col-md-6 text-right social">
-            <a href="#"><span class="fa fa-tripadvisor"></span></a>
-            <a href="#"><span class="fa fa-facebook"></span></a>
-            <a href="#"><span class="fa fa-twitter"></span></a>
+            <img src="{{url('')}}/villa/agalogo/aga-logo-8.png" height="50px" width="50px" data-aos="fade-up"/>
           </p>
         </div>
       </div>
