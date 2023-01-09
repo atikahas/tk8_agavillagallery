@@ -31,7 +31,7 @@
     </header>
     <!-- END head -->
 
-    <section class="site-gallery overlay" style="background-image: url('{{url('')}}/gallery/3.jpg')">
+    <section class="site-gallery overlay" style="background-image: url('{{url('')}}/villa/agavillaimage/agavilla17/AgaVilla-DJI_0088-PhotobyAllIsAmazing.jpeg')">
       <div class="container">
         <div class="row site-gallery-inner justify-content-center align-items-center">
           <div class="col-md-10 text-center">
