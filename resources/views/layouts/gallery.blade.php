@@ -32,7 +32,7 @@
     </header>
     <!-- END head -->
 
-    <section class="site-hero overlay" style="background-image: url('{{url('')}}/villa/agavillaimage/agavilla17/AgaVilla-DJI_0088-PhotobyAllIsAmazing.jpeg')">
+    <section class="site-hero overlay" style="background-image: url('{{url('')}}/villa/agavillaimage/agavilla3/01_06130.JPG')">
       <div class="container">
         <div class="row site-hero-inner justify-content-center align-items-center">
           <div class="col-md-10 text-center">
