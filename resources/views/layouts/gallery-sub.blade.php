@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="{{url('')}}/villa/css/aos.css">
     
     <link rel="stylesheet" href="{{url('')}}/villa/fonts/ionicons/css/ionicons.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="{{url('')}}/villa/fonts/fontawesome/css/font-awesome.min.css">
     <link rel="icon" href="{{url('')}}/villa/agalogo/aga-logo-7.png">
 
@@ -26,6 +28,7 @@
     <header class="site-header">
       <div class="container-fluid">
         <div class="row">
+          <div class="col-4 site-logo aos-init aos-animate" data-aos="fade-up"><a href="{{url('')}}/"><ion-icon name="arrow-back-outline"></ion-icon></a></div>
           <div class="col-8">
           </div>
         </div>
@@ -38,7 +41,6 @@
         <div class="row site-gallery-inner justify-content-center align-items-center">
           <div class="col-md-10 text-center">
             <img src="{{url('')}}/villa/agalogo/aga-logo-8.png" height="120px" width="120px" data-aos="fade-up"/>
-            {{-- <h1 class="heading" data-aos="fade-up" style="color:white">AGA <em>Villa</em></h1> --}}
             <p data-aos="fade-up" data-aos-delay="100" style="color: #e61c5d;">
               @yield('breadcrumb')
             </p>
