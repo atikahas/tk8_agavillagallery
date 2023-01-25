@@ -18,6 +18,7 @@
 
     <!-- Theme Style -->
     <link rel="stylesheet" href="{{url('')}}/villa/css/style.css">
+    <link rel="stylesheet" href="{{url('')}}/villa/css/custom.css">
     @yield('scriptheader')
   </head>
   <body>
