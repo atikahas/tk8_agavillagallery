@@ -4,7 +4,6 @@
     <title>AgaVilla</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
 
     <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400|Playfair+Display:400,700" rel="stylesheet">
 
@@ -25,9 +24,9 @@
     @yield('scriptheader')
   </head>
   <body>
-    <div class="scroll-up-btn show">
+    {{-- <div class="scroll-up-btn show">
       <ion-icon name="arrow-up-outline"></ion-icon>
-    </div>
+    </div> --}}
     
     <header class="site-header">
       <div class="container-fluid">
