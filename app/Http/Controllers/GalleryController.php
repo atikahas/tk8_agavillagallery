@@ -20,10 +20,10 @@ class GalleryController extends Controller
 
     public function interiormain() 
     {
-        $col1 = VillaImage::whereRaw('filesource = "agavilla" and id > 0 and id < 73 ')->get();
-        $col2 = VillaImage::whereRaw('filesource = "agavilla" and id > 72 and id < 142 ')->get();
-        $col3 = VillaImage::whereRaw('filesource = "agavilla" and id > 141 and id < 226 ')->get();
-        $col4 = VillaImage::whereRaw('filesource = "agavilla" and id > 225 and id < 304 ')->get();
+        $col1 = VillaImage::whereRaw('filesource = "agavilla" and id > 0 and id < 25 ')->get();
+        $col2 = VillaImage::whereRaw('filesource = "agavilla" and id > 24 and id < 46 ')->get();
+        $col3 = VillaImage::whereRaw('filesource = "agavilla" and id > 45 and id < 67 ')->get();
+        $col4 = VillaImage::whereRaw('filesource = "agavilla" and id > 66 and id < 89 ')->get();
         $villa1 = VillaImage::where('filesource','agavilla')->get();
         // dd($villa1);
 
@@ -32,10 +32,10 @@ class GalleryController extends Controller
 
     public function interiorguest() 
     {
-        $col1 = VillaImage::whereRaw('filesource = "agavilla2" and id > 305 and id < 349 ')->get();
-        $col2 = VillaImage::whereRaw('filesource = "agavilla2" and id > 348 and id < 397 ')->get();
-        $col3 = VillaImage::whereRaw('filesource = "agavilla2" and id > 396 and id < 437 ')->get();
-        $col4 = VillaImage::whereRaw('filesource = "agavilla2" and id > 436 and id < 476 ')->get();
+        $col1 = VillaImage::whereRaw('filesource = "agavilla2" and id > 88 and id < 103 ')->get();
+        $col2 = VillaImage::whereRaw('filesource = "agavilla2" and id > 102 and id < 113 ')->get();
+        $col3 = VillaImage::whereRaw('filesource = "agavilla2" and id > 112 and id < 122 ')->get();
+        $col4 = VillaImage::whereRaw('filesource = "agavilla2" and id > 121 and id < 138 ')->get();
         $villa2 = VillaImage::where('filesource','agavilla2')->get();
         // dd($villa1);
 
@@ -44,10 +44,10 @@ class GalleryController extends Controller
 
     public function exterior() 
     {
-        $col1 = VillaImage::whereRaw('filesource = "agavilla3" and id > 475 and id < 540 ')->get();
-        $col2 = VillaImage::whereRaw('filesource = "agavilla3" and id > 539 and id < 602 ')->get();
-        $col3 = VillaImage::whereRaw('filesource = "agavilla3" and id > 601 and id < 663 ')->get();
-        $col4 = VillaImage::whereRaw('filesource = "agavilla3" and id > 662 and id < 717 ')->get();
+        $col1 = VillaImage::whereRaw('filesource = "agavilla3" and id > 137 and id < 148 ')->get();
+        $col2 = VillaImage::whereRaw('filesource = "agavilla3" and id > 147 and id < 154 ')->get();
+        $col3 = VillaImage::whereRaw('filesource = "agavilla3" and id > 153 and id < 161 ')->get();
+        $col4 = VillaImage::whereRaw('filesource = "agavilla3" and id > 160 and id < 170 ')->get();
 
         return view('gallery.exterior', (compact('col1','col2','col3','col4')));
     }
