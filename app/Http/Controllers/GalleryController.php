@@ -51,4 +51,24 @@ class GalleryController extends Controller
 
         return view('gallery.exterior', (compact('col1','col2','col3','col4')));
     }
+
+    public function situation() 
+    {
+        $col1 = VillaImage::whereRaw('id > 169 and id < 180 ')->get();
+        $col2 = VillaImage::whereRaw('id > 181 and id < 192 ')->get();
+        $col3 = VillaImage::whereRaw('id > 191 and id < 201 ')->get();
+        $col4 = VillaImage::whereRaw('id > 200 and id < 212 ')->get();
+
+        return view('gallery.situation', (compact('col1','col2','col3','col4')));
+    }
+
+    public function retouched() 
+    {
+        $col1 = VillaImage::whereRaw('filesource = "agavilla17" and id > 211 and id < 240 ')->get();
+        $col2 = VillaImage::whereRaw('filesource = "agavilla17" and id > 239 and id < 265 ')->get();
+        $col3 = VillaImage::whereRaw('filesource = "agavilla17" and id > 264 and id < 294 ')->get();
+        $col4 = VillaImage::whereRaw('filesource = "agavilla17" and id > 293 and id < 319 ')->get();
+
+        return view('gallery.retouched', (compact('col1','col2','col3','col4')));
+    }
 }
